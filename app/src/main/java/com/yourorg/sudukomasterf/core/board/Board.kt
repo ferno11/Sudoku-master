@@ -11,7 +11,7 @@ class Board(
 
     init{
         require(cells.size == size)
-        require(cells[0].size == size)
+        require(cells.all{it.size == size})
     }
     fun getCell(position: Position):Cell{
         validatePosition(position)
