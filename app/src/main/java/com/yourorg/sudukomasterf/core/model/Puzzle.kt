@@ -3,5 +3,5 @@ import com.yourorg.sudukomasterf.core.board.Board
 
 data class Puzzle (
     val initialBoard: Board,
-    val solutionBoard: Board
+    val solutionBoard: Board,
 )

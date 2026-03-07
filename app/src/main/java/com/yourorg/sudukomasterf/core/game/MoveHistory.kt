@@ -3,7 +3,7 @@ package com.yourorg.sudukomasterf.core.game
 class MoveHistory{
     private val undoStack = ArrayDeque<Move>()
     private val redoStack = ArrayDeque<Move>()
-
+    //to record the moves
     fun recordMove(move: Move){
         undoStack.addLast(move)
         redoStack.clear()
